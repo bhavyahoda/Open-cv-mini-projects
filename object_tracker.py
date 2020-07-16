@@ -1,3 +1,5 @@
+#in this i am tracking any object using my mouse click 
+#there are two codes here one both are working but the below one is an optimised code 
 '''import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -34,6 +36,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()'''
 #//////////////the above code works just fine but the below is a more optimised version 
+
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
